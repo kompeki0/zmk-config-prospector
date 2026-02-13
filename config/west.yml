@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: prospector
       url-base: https://github.com/t-ogura
+    - name: kompeki0
+      url-base: https://github.com/kompeki0
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,5 +15,8 @@ manifest:
       remote: prospector
       revision: v2.1.0
       path: modules/prospector-zmk-module
+    - name: zmk-ble-hogp-sniffer
+      remote: zmk-converter
+      revision: main
   self:
     path: config

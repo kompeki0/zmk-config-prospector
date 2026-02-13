@@ -14,3 +14,9 @@ include:
   # Settings reset utility
   - board: xiao_ble/nrf52840
     shield: settings_reset
+
+  # Scanner - Sniffer test mode (BLE central + HOGP report capture)
+  - board: xiao_ble/nrf52840
+    shield: prospector_scanner
+    cmake-args: -DEXTRA_CONF_FILE=../../config/prospector_scanner_sniffer.conf
+    artifact-name: prospector_scanner_sniffer
