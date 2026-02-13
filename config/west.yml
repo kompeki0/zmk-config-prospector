@@ -15,8 +15,8 @@ manifest:
       remote: prospector
       revision: v2.1.0
       path: modules/prospector-zmk-module
-    - name: zmk-ble-hogp-sniffer
-      remote: zmk-converter
+    - name: zmk-converter
+      remote: kompeki0
       revision: main
   self:
     path: config
